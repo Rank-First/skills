@@ -28,9 +28,6 @@ Code skills**. Add this marketplace once, install any skill below with a single 
 
 Prefer to copy the folder yourself? See **[Manual install](#manual-install-no-marketplace)** below.
 
-> 💡 The banner above and the RankFirst logo were both produced with the `gemini-visuals` skill in this
-> repo — it's dogfooded on our own brand.
-
 ---
 
 ## Skills in this marketplace
