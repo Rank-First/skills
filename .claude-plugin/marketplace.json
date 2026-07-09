@@ -1,0 +1,17 @@
+{
+  "name": "rankfirst",
+  "owner": {
+    "name": "RankFirst"
+  },
+  "metadata": {
+    "description": "RankFirst's open Claude Code skills for building SaaS products.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "gemini-visuals",
+      "source": "./plugins/gemini-visuals",
+      "description": "Gemini visual review for your UI — a screenshot → Gemini review → generate/edit loop that critiques and produces on-brand landing visuals, auto-adapting to the host project's own branding."
+    }
+  ]
+}

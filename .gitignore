@@ -1,0 +1,13 @@
+# Node / Playwright (installed next to the scripts by setup.sh)
+node_modules/
+package.json
+package-lock.json
+
+# Per-project resolved brand tokens + STYLE BLOCK (machine-local, not shared)
+brand.local.md
+**/reference/brand.local.md
+
+# Generated images and Gemini's pre-encode JPEGs
+*.raw.jpg
+/tmp/
+scratch/

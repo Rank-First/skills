@@ -1,0 +1,17 @@
+{
+  "name": "gemini-visuals",
+  "description": "Create, edit, and iterate on-brand marketing/landing visuals with Google Gemini. Generates flat doodle-annotated illustrations, stages real screenshots as clean illustrations, and runs competitor visual research. Auto-adapts to the host project's own brand colors and fonts.",
+  "version": "0.1.0",
+  "author": {
+    "name": "RankFirst"
+  },
+  "keywords": [
+    "gemini",
+    "landing-page",
+    "illustrations",
+    "marketing",
+    "screenshots",
+    "playwright",
+    "saas"
+  ]
+}
