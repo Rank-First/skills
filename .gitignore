@@ -1,5 +1,6 @@
-# Node / Playwright (installed next to the scripts by setup.sh)
-node_modules/
+# Node / Playwright (installed next to the scripts by setup.sh).
+# No trailing slash so it also ignores the node_modules SYMLINK setup.sh creates.
+node_modules
 package.json
 package-lock.json
 

@@ -10,7 +10,7 @@ if [ -d "$DIR/node_modules/playwright" ]; then
 else
   # Prefer symlinking an existing install from the npx/npm cache (fast, no download).
   FOUND=""
-  for d in /root/.npm/_npx/*/node_modules ./node_modules ../node_modules; do
+  for d in "$HOME"/.npm/_npx/*/node_modules /root/.npm/_npx/*/node_modules ./node_modules ../node_modules; do
     [ -d "$d/playwright" ] && FOUND="$(cd "$d" && pwd)" && break
   done
   if [ -n "$FOUND" ]; then

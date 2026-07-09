@@ -2,8 +2,8 @@
 //   node shot.mjs <url> <outPath> [--w 1440] [--sel "#pricing"] [--full] [--h 900]
 // Default: viewport 1440x900, waits for network idle + all images decoded,
 // then either clips to a selector (--sel) or captures the full page (--full)
-// or just the viewport. Lives in scratchpad/lib; run with NODE_PATH set to the
-// playwright package dir (the runner script sets this for you).
+// or just the viewport. Run from the scripts dir after setup.sh — Playwright must
+// resolve from a node_modules next to the scripts (ESM `import` ignores NODE_PATH).
 import { chromium } from "playwright";
 
 const args = process.argv.slice(2);
