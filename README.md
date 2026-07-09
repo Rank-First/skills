@@ -1,8 +1,24 @@
+<div align="center">
+
+<img src="assets/banner.png" alt="RankFirst — publish every day, rank on Google, get cited by AI" width="100%">
+
 # RankFirst skills
 
-Open [Claude Code](https://claude.com/claude-code) skills from **RankFirst** — a marketplace of AI
-workflows for **building SaaS products**. Add it once as a plugin marketplace and install any skill
-below with a single command.
+**Open [Claude Code](https://claude.com/claude-code) skills for building SaaS products — from the team behind [RankFirst](https://rankfirst.blog).**
+
+[![Marketplace](https://img.shields.io/badge/Claude_Code-plugin_marketplace-14664a)](https://claude.com/claude-code)
+[![Skills](https://img.shields.io/badge/skills-1-006039)](#skills-in-this-marketplace)
+[![License: MIT](https://img.shields.io/badge/license-MIT-b8893b)](LICENSE)
+[![rankfirst.blog](https://img.shields.io/badge/product-rankfirst.blog-1c1a17)](https://rankfirst.blog)
+
+</div>
+
+---
+
+We build [**RankFirst**](https://rankfirst.blog) — blog-on-autopilot that publishes SEO/GEO-optimized
+articles every day so businesses rank on Google *and* get cited by AI search. Along the way we wrote a
+lot of internal tooling for shipping a SaaS fast, and we're opening up the reusable pieces as **Claude
+Code skills**. Add this marketplace once, install any skill below with a single command.
 
 ```bash
 # In Claude Code:
@@ -11,6 +27,9 @@ below with a single command.
 ```
 
 Prefer to copy the folder yourself? See **[Manual install](#manual-install-no-marketplace)** below.
+
+> 💡 The banner above and the RankFirst logo were both produced with the `gemini-visuals` skill in this
+> repo — it's dogfooded on our own brand.
 
 ---
 
@@ -48,7 +67,7 @@ written up in the skill's
 ### As a plugin (recommended — one command, gets updates)
 ```bash
 /plugin marketplace add Rank-First/skills     # add this marketplace
-/plugin install gemini-visuals@rankfirst     # install the skill
+/plugin install gemini-visuals@rankfirst      # install the skill
 ```
 Then just ask Claude Code to "make a landing illustration for section X" — it reads `SKILL.md` and runs
 the loop. Update later with `/plugin marketplace update rankfirst`.
@@ -82,6 +101,7 @@ cream/charcoal default if you don't).
 ```
 skills/                                        ← this marketplace repo (Rank-First/skills)
 ├── .claude-plugin/marketplace.json            ← the catalog
+├── assets/                                     ← README banner + logo (made with gemini-visuals)
 ├── plugins/
 │   └── gemini-visuals/
 │       ├── .claude-plugin/plugin.json         ← plugin manifest
@@ -112,4 +132,13 @@ skills/                                        ← this marketplace repo (Rank-F
 
 ---
 
+## About RankFirst
+
+[**RankFirst**](https://rankfirst.blog) is blog-on-autopilot for growing businesses. Point it at your
+site — it learns your brand voice, plans a month of SEO- and GEO-optimized posts, and publishes them
+every day, so you show up in Google *and* in answers from ChatGPT, Claude, and Perplexity. You stay in
+control: edit, regenerate, or unpublish anything. → **[rankfirst.blog](https://rankfirst.blog)**
+
 Contributions and feedback welcome — the gotchas list grows every time someone hits a new one.
+
+<sub>MIT licensed · Made by the RankFirst team · <a href="https://rankfirst.blog">rankfirst.blog</a></sub>
